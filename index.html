@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Website</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">TravelWithAlok</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#blog">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="container text-center mt-5">
+        <h1>Welcome to TravelWithAlok</h1>
+        <p>Sharing thoughts, ideas, and experiences.</p>
+    </div>
+
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="mukuko-studio-tPKQwYHy8q4-unsplash.jpg" class="d-block w-100" alt="..." height="400px" width="400px">
+          </div>
+          <div class="carousel-item">
+            <img src="samrat-khadka-wrfl3DeoTIw-unsplash.jpg" class="d-block w-100" alt="..." height="400px" width="400px">
+          </div>
+          <div class="carousel-item">
+            <img src="sebastian-pena-lambarri-mGxKdwKhzEU-unsplash.jpg" class="d-block w-100" alt="..." height="400px" width="400px">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    <!-- Blog Posts Section -->
+    <div id="blog" class="container mt-5">
+        <div class="row">
+            <!-- Blog Posts -->
+            <div class="col-md-8">
+                <!-- Blog Post 1 -->
+                <div class="card mb-4">
+                    <img src="origin.jpeg" class="card-img-top" alt="Blog Post 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Origin of Ganga</h5>
+                        <p class="card-text">
+                            The origin of the Ganga River (also known as the Ganges in English) is deeply rooted in both geographical and cultural contexts, playing a significant role in the history and spiritual beliefs of India.</p>
+                        <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                    <div class="card-footer text-muted">Posted on August 10, 2024 by Alok</div>
+                </div>
+                <!-- Blog Post 2 -->
+                <div class="card mb-4">
+                    <img src="Bagori-Village.jpg" class="card-img-top" alt="Blog Post 2"
+                     width 100px height 100px>
+                    <div class="card-body">
+                        <h5 class="card-title">Vilage's of Harsil valley</h5>
+                        <p class="card-text">
+                            Bagori Village is a picturesque and serene village located in the Harsil Valley of Uttarakhand, India. Nestled in the Himalayan region, Bagori is known for its natural beauty, traditional wooden houses, and rich cultural heritage. It is situated near the famous town of Harsil, which is a popular stop for pilgrims traveling to the Gangotri Temple, one of the four sacred sites in the Chota Char Dham pilgrimage</p>
+                        <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                    <div class="card-footer text-muted">Posted on juiy 31, 2024 by Alok</div>
+                </div>
+            </div>
+
+            <!-- Sidebar -->
+            <div class="col-md-4">
+                <!-- Search Widget -->
+                <div class="card mb-4">
+                    <div class="card-header">Search</div>
+                    <div class="card-body">
+                        <form>
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Search for...">
+                                <button class="btn btn-primary" type="button">Go!</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <!-- Categories Widget -->
+                <div class="card mb-4">
+                    <div class="card-header">Categories</div>
+                    <div class="card-body">
+                        <ul class="list-unstyled mb-0">
+                            <li><a href="#">Places</a></li>
+                            <li><a href="#">Througths</a></li>
+                            <li><a href="#">Experiences</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Recent Posts Widget -->
+                <div class="card mb-4">
+                    <div class="card-header">Recent Posts</div>
+                    <div class="card-body">
+                        <ul class="list-unstyled">
+                            <li><a href="#">Origin of Ganga</a></li>
+                            <li><a href="#">Harsil Valley</a></li>
+                            <li><a href="#"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <div id="about" class="container mt-5 text-center">
+        <h2>About Me</h2>
+        <p>I'm a passionate traveler who loves exploring new destinations, immersing himself in different cultures, and discovering the hidden gems of the world. Whether it's trekking through rugged mountain paths, relaxing on serene beaches, or wandering through vibrant city streets, I seeks out the unique experiences that each place has to offer. His journeys are filled with adventure, personal growth, and a deep appreciation for the beauty of nature and the diversity of humanity.</p>
+        <p>As a traveler, I values meaningful interactions with locals and enjoys learning about the history, traditions, and stories that make each destination special. He often shares his adventures through photos, travel stories, and recommendations, inspiring others to embark on their own journeys and explore the wonders of the world</p>    
+    </div>
+
+    <!-- Contact Section -->
+    <div id="contact" class="container mt-5">
+        <h2 class="text-center">Contact Me</h2>
+        <form>
+            <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Your Name">
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="email" placeholder="name@example.com">
+            </div>
+            <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-light text-center text-lg-start mt-5">
+        <div class="text-center p-3">
+            &copy; 2024 TravelWithAlok. All rights reserved.
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

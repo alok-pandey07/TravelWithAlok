@@ -1,0 +1,13 @@
+/* Custom CSS */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+footer {
+    background-color: #f8f9fa;
+    padding: 10px;
+}
